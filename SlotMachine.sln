@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SlotMachine", "SlotMachine\SlotMachine.csproj", "{CC228E5F-AF08-48D5-8E0B-DA19F015B5D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reels", "Reels\Reels.csproj", "{9574D2F9-FD18-4C98-9FDE-11712CF1719E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapters", "Adapters\Adapters.csproj", "{2EC0688C-660E-4A78-B4BB-7D253916ABD7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SlotMachineConsole", "SlotMachineConsole\SlotMachineConsole.csproj", "{7190AF4C-361A-4631-B353-74D826C9F3A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{21B6BE18-F6FF-4B97-9BF2-29D9A4794B55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment", "Payment\Payment.csproj", "{5DDC2958-5790-4169-8F8A-FCB4B2EE201F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC228E5F-AF08-48D5-8E0B-DA19F015B5D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC228E5F-AF08-48D5-8E0B-DA19F015B5D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC228E5F-AF08-48D5-8E0B-DA19F015B5D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC228E5F-AF08-48D5-8E0B-DA19F015B5D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9574D2F9-FD18-4C98-9FDE-11712CF1719E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9574D2F9-FD18-4C98-9FDE-11712CF1719E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9574D2F9-FD18-4C98-9FDE-11712CF1719E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9574D2F9-FD18-4C98-9FDE-11712CF1719E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EC0688C-660E-4A78-B4BB-7D253916ABD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EC0688C-660E-4A78-B4BB-7D253916ABD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EC0688C-660E-4A78-B4BB-7D253916ABD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EC0688C-660E-4A78-B4BB-7D253916ABD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7190AF4C-361A-4631-B353-74D826C9F3A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7190AF4C-361A-4631-B353-74D826C9F3A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7190AF4C-361A-4631-B353-74D826C9F3A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7190AF4C-361A-4631-B353-74D826C9F3A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21B6BE18-F6FF-4B97-9BF2-29D9A4794B55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21B6BE18-F6FF-4B97-9BF2-29D9A4794B55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21B6BE18-F6FF-4B97-9BF2-29D9A4794B55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21B6BE18-F6FF-4B97-9BF2-29D9A4794B55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DDC2958-5790-4169-8F8A-FCB4B2EE201F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DDC2958-5790-4169-8F8A-FCB4B2EE201F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DDC2958-5790-4169-8F8A-FCB4B2EE201F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DDC2958-5790-4169-8F8A-FCB4B2EE201F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81E4FAD3-A516-4C33-8A50-0459EEF9E6FC}
+	EndGlobalSection
+EndGlobal
