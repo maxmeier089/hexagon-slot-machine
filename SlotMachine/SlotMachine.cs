@@ -1,6 +1,4 @@
-﻿using Reels;
-
-namespace SlotMachine
+﻿namespace SlotMachine
 {
     public class SlotMachine : ISlotMachine
     {
