@@ -58,27 +58,7 @@
             }
             else
             {
-                decimal? smallestAmount = null;
-
-                foreach (ReelSymbol symbol in symbols)
-                {
-                    if (symbol is MoneySymbol moneySymbol)
-                    {
-                        if (smallestAmount.HasValue)
-                        {
-                            if (smallestAmount.Value > moneySymbol.Amount)
-                            {
-                                smallestAmount = moneySymbol.Amount;
-                            }
-                        }
-                        else smallestAmount = moneySymbol.Amount;
-                    }
-                }
-
-                if (smallestAmount != null)
-                {
-                    amount = smallestAmount.Value;
-                }
+                amount = symbols.Where(s => s is MoneySymbol).Select(s => (s as MoneySymbol).Amount).Order().FirstOrDefault();
             }
 
             gameOutcomePort.NotifyGameOutcome(DateTime.Now, new GameOutcome(symbols, amount));
